@@ -46,15 +46,12 @@ Programmation Web - L3 MIASHS - 2026 / 2027
 
 ### TD 01 - Élements réalisés
 
-- **à compléter**
-
-### TD 01 - Bonus réalisés
-
-- **à compléter**
+- Création du projet 
+- 1. Modéliser un tweet 
 
 ### TD 01 - Élements non réalisés
 
-- **à compléter**
+- Bonus (travail facultatif)
 
 ### TD 01 - Difficultés rencontrées + Solutions appliquées
 
@@ -62,7 +59,9 @@ Programmation Web - L3 MIASHS - 2026 / 2027
 
 ### TD 01 - Déclaration d'usage de l'IA générative
 
-- **à compléter**
+- génération des 10 tweets pour notre fausse base de données sur le thème de la lecture 
+- création du composant TweetPreview (comprendre la syntaxe d'un composant, comment ajouter des propriétés), comprendre la syntaxe de destructuration 
+
 
 ## TD 02
 

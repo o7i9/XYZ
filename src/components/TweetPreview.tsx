@@ -34,6 +34,9 @@ export function TweetPreview ({tweet}: TweetPreviewProps) : ReactElement {
             <h3> {tweet.authorName}</h3>
             <p>@{tweet.authorHandle}</p>
             <p> {dateLisible} </p>
+            {tweet.image && (
+                <img src={tweet.image.url} alt={tweet.image.alt className="tweet-preview-image"} />
+            )}
             <p> {tweet.content} </p>
 
         </article>
@@ -42,3 +45,5 @@ export function TweetPreview ({tweet}: TweetPreviewProps) : ReactElement {
 
 
 //{condition && <p>Ce texte apparaît seulement si condition est vrai</p>}
+/*Si tweet.image existe on produit une <img> sinon rien du tout, pas de balise vide ou espace réservé
+ */

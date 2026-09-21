@@ -1,6 +1,6 @@
 import type {Tweet} from "../types/Tweet"; 
 
-export const collectionsTweets : Array<Tweet> = [
+export const initialTweets : Array<Tweet> = [
     // j'ai utilisé un générateur UUID en ligne pour les id
     {
         id : "b9422fee-3ad2-4343-91e7-df611c53ca88", 
